@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 
-h1 {
-  color: #0081A7;
-}
-
-h2, h3 {
+* {
 	font-family: 'Lexend', sans-serif;
-	color: #0081A7;
 }
 
 .title {
@@ -45,4 +40,12 @@ h2, h3 {
   animation: scroll 20s ease-in-out forwards infinite;
 }
 
-.gallery .photo {}
+#icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon-color {
+  fill: #F7F7FF;
+}

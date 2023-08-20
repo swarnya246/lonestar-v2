@@ -6,7 +6,6 @@ import angelhacks from "../public/angelhacks.jpg";
 import assemble from "../public/assemble.JPG";
 import zephyr from "../public/zephyr.jpg";
 import horizon from "../public/horizon.png";
-import '../css/main.css'
 import { ReactNode } from "react";
 
 function Photo({
@@ -19,7 +18,7 @@ function Photo({
   alt: string;
 }) {
   return (
-    <div className="photo primary w-fit rounded border bg-white px-2 sm:px-3 lg:px-4 pb-1 sm:pb-1.5 lg:pb-2 pt-3 sm:pt-[1.125rem] lg:pt-6 shadow-lg shadow-current odd:rotate-6 even:-rotate-6">
+    <div className="photo primary w-fit rounded border bg-[#F7F7FF] px-2 sm:px-3 lg:px-4 pb-1 sm:pb-1.5 lg:pb-2 pt-3 sm:pt-[1.125rem] lg:pt-6 shadow-lg odd:rotate-6 even:-rotate-6">
       <div className="relative aspect-square w-32 sm:w-48 lg:w-64">
         <Image
           className="h-full w-full object-cover"

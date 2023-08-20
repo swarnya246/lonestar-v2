@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import { Gallery } from "../components/Gallery";
+import { FAQ } from "../components/FAQ";
+import { Footer } from "../components/Footer";
 import '../css/main.css'
 
 export default function Home() {
@@ -43,8 +45,15 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className="pt-20 pb-20 bg-[#05204A]">
+        <section className="py-20 bg-[#05204A]">
           <Gallery />
+        </section>
+        <section className="px-8 py-12 text-center bg-[#C03221]">
+          <h2 className="text-4xl title text-[#05204A] text-border">Questions? We&apos;ve got you covered.</h2>
+          <FAQ />
+        </section>
+        <section className="px-8 pb-8 bg-[#C03221]">
+          <Footer />
         </section>
       </main>
     </div>
