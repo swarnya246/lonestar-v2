@@ -48,4 +48,9 @@
 
 .icon-color {
   fill: #F7F7FF;
+} 
+
+#footer {
+  display: flex;
+  justify-content: space-between;
 }

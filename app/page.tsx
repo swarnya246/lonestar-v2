@@ -52,7 +52,7 @@ export default function Home() {
           <h2 className="text-4xl title text-[#05204A] text-border">Questions? We&apos;ve got you covered.</h2>
           <FAQ />
         </section>
-        <section className="px-8 pb-8 bg-[#C03221]">
+        <section className="px-12 pb-8 bg-[#C03221] text-[#F7F7FF] text-lg">
           <Footer />
         </section>
       </main>
